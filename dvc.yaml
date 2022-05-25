@@ -1,0 +1,19 @@
+stages:
+  cleaning:
+    cmd: python modules/cleaner_df.py data/train.csv data/test.csv data/store.csv
+    deps:
+    - data/train.csv 
+    - data/test.csv 
+    - data/store.csv
+    - modules/cleaner_df.py
+    outs:
+    - data/cl_store.csv
+    - data/cl_train.csv
+    - data/cl_test.csv
+  eda:
+    cmd: python modules/EDA.py data/df_train.csv data/df_store.csv
+    deps:
+    - data/train.csv
+    - modules/EDA.py
+    outs:
+    - data/training_df.csv

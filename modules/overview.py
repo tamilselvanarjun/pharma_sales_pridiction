@@ -2,7 +2,7 @@ import pandas as pd
 from app_loggs import get_logger
 
 my_logger = get_logger("DfOverview")
-my_logger.debug("Module Loaded successfully!")
+my_logger.debug("Overview Module Loaded successfully!")
 
 
 class DfOverview:
