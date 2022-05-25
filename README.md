@@ -1,5 +1,7 @@
 # pharma_sales_pridiction
-`Pharmaceutical Sales prediction Across Multiple Stores`
+## `Pharmaceutical Sales prediction Across Multiple Stores`
+![Pharmacy-shop](https://user-images.githubusercontent.com/99503155/170320600-eafaf120-217c-404d-9539-dbe2e86f1e9d.jpg)
+
 ## The Scinario
 You work at Rossmann Pharmaceuticals as a Machine Learning Engineer. The finance team wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgment to forecast sales. 
 
