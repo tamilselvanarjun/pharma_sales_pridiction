@@ -1,4 +1,4 @@
-# pharma_sales_pridiction
+
 ## `Pharmaceutical Sales prediction Across Multiple Stores`
 ![Pharmacy-shop](https://user-images.githubusercontent.com/99503155/170320600-eafaf120-217c-404d-9539-dbe2e86f1e9d.jpg)
 
