@@ -1,0 +1,55 @@
+2022-05-24 12:43:33,803 — DfOverview — DEBUG — Module Loaded successfully!
+2022-05-24 12:44:47,941 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:44:48,109 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:44:48,152 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:45:28,175 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:45:28,214 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:45:28,220 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:47:57,475 — Df_Cleaner — DEBUG — Module Loaded successfully!
+2022-05-24 12:49:56,146 — DfOutlier — DEBUG — Module Loaded successfully!
+2022-05-24 12:51:55,902 — DfCleaner — DEBUG — Module Loaded successfully!
+2022-05-24 12:54:23,841 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:54:23,888 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:54:23,893 — DfHelper — DEBUG — file read as csv
+2022-05-24 12:57:13,764 — DfHelper — INFO — file saved as csv
+2022-05-24 12:57:25,455 — DfHelper — INFO — file saved as csv
+2022-05-24 12:57:25,893 — DfHelper — INFO — file saved as csv
+2022-05-24 14:02:45,132 — DfOverview — DEBUG — Module Loaded successfully!
+2022-05-24 14:02:45,176 — DfCleaner — DEBUG — Module Loaded successfully!
+2022-05-24 14:02:45,209 — DfOutlier — DEBUG — Module Loaded successfully!
+2022-05-24 14:08:00,795 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:08:00,800 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:08:00,810 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:22:31,681 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:22:31,693 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:22:31,698 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:28:44,655 — DfHelper — INFO — file saved as csv
+2022-05-24 14:28:58,186 — DfHelper — INFO — file saved as csv
+2022-05-24 14:28:58,759 — DfHelper — INFO — file saved as csv
+2022-05-24 14:33:25,158 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:33:25,818 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:33:25,853 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:51:05,383 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:51:08,427 — DfHelper — DEBUG — file read as csv
+2022-05-24 14:51:08,692 — DfHelper — DEBUG — file read as csv
+2022-05-24 20:43:50,847 — DfHelper — INFO — file saved as csv
+2022-05-24 20:44:08,063 — DfHelper — INFO — file saved as csv
+2022-05-24 20:44:16,545 — DfHelper — INFO — file saved as csv
+2022-05-24 20:44:25,649 — DfHelper — INFO — file saved as csv
+2022-05-24 22:01:47,643 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:48,247 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:48,634 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:49,026 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:57,718 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:57,820 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:57,969 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:01:58,095 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:03:09,026 — DfHelper — ERROR — model not found
+Traceback (most recent call last):
+  File "C:\Users\Gezahegne\10-Accademy\Week-3\pharma_sales_pridiction\modules\load_file.py", line 56, in read_model
+    model = pickle.load(open(name, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '..\\models\\LGBMRegressor-sales-2021-08-01-19:57.pkl'
+2022-05-24 22:03:20,026 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:03:20,150 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:03:20,292 — DfHelper — DEBUG — file read as csv
+2022-05-24 22:03:20,467 — DfHelper — DEBUG — file read as csv
