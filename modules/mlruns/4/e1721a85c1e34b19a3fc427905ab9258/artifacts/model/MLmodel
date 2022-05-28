@@ -1,0 +1,30 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+mlflow_version: 1.26.0
+model_uuid: 1302434586a345e8b503290e6bb260a4
+run_id: e1721a85c1e34b19a3fc427905ab9258
+signature:
+  inputs: '[{"name": "DayOfWeek", "type": "long"}, {"name": "Promo", "type": "long"},
+    {"name": "StateHoliday", "type": "long"}, {"name": "SchoolHoliday", "type": "long"},
+    {"name": "StoreType", "type": "long"}, {"name": "Assortment", "type": "long"},
+    {"name": "CompetitionDistance", "type": "long"}, {"name": "Promo2", "type": "long"},
+    {"name": "PromoInterval0", "type": "long"}, {"name": "PromoInterval1", "type":
+    "long"}, {"name": "PromoInterval2", "type": "long"}, {"name": "PromoInterval3",
+    "type": "long"}, {"name": "days_before_state_holiday", "type": "long"}, {"name":
+    "days_after_state_holiday", "type": "long"}, {"name": "Year", "type": "long"},
+    {"name": "Month", "type": "long"}, {"name": "Day", "type": "long"}, {"name": "WeekOfYear",
+    "type": "long"}, {"name": "Weekend", "type": "long"}, {"name": "Weekday", "type":
+    "long"}, {"name": "part_of_month", "type": "long"}, {"name": "CompetitionOpen",
+    "type": "long"}, {"name": "Promo2Open", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-05-26 16:11:14.867712'

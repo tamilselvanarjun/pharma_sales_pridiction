@@ -3,7 +3,7 @@ import pandas as pd
 from app_loggs import get_logger
 
 my_logger = get_logger("DfCleaner")
-my_logger.debug("Loaded successfully!")
+my_logger.debug("Cleaning Module Loaded successfully!")
 
 
 class DfCleaner():
@@ -153,6 +153,7 @@ class DfCleaner():
         """
 
     def converter(self, df: pd.DataFrame, column, scale):
+        """convert selected columns to scale
         df[column] = df[column] * scale
         return df
 
@@ -180,3 +181,4 @@ class DfCleaner():
         for col in columns:
             df[col] = df[col].fillna(df[col].median())
         return df
+    """

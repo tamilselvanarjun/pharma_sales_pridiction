@@ -1,0 +1,1 @@
+[('Scaling', StandardScaler()), ('KNeighborsRegressor', KNeighborsRegressor(n_neighbors=2, p=1, weights='distance'))]

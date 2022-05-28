@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Gezahegne/10-Accademy/Week-3/pharma_sales_pridiction/notebooks/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: LSTM
