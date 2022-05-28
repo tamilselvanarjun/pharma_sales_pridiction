@@ -1,0 +1,70 @@
+2022-05-26 14:26:53,015 — DfHelper — INFO — file saved as csv
+2022-05-26 14:27:02,776 — DfHelper — INFO — file saved as csv
+2022-05-26 14:27:08,865 — DfHelper — INFO — file saved as csv
+2022-05-26 14:27:15,624 — DfHelper — INFO — file saved as csv
+2022-05-26 16:20:11,430 — DfHelper — INFO — file saved as csv
+2022-05-26 16:20:20,317 — DfHelper — INFO — file saved as csv
+2022-05-26 16:20:27,782 — DfHelper — INFO — file saved as csv
+2022-05-26 16:20:35,042 — DfHelper — INFO — file saved as csv
+2022-05-26 16:40:30,327 — DfHelper — ERROR — file not found
+Traceback (most recent call last):
+  File "C:\Users\Gezahegne\10-Accademy\week-3\pharma_sales_pridiction\modules\load_file.py", line 37, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../pages/train.csv'
+2022-05-26 16:46:30,452 — DfHelper — ERROR — file not found
+Traceback (most recent call last):
+  File "C:\Users\Gezahegne\10-Accademy\week-3\pharma_sales_pridiction\modules\load_file.py", line 37, in read_csv
+    df = pd.read_csv(csv_path, na_values=missing_values)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\Gezahegne\AppData\Roaming\Python\Python39\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../pages/train.csv'
+2022-05-26 21:43:32,802 — DfHelper — INFO — file saved as csv
+2022-05-26 21:43:47,253 — DfHelper — INFO — file saved as csv
+2022-05-26 21:43:58,894 — DfHelper — INFO — file saved as csv
+2022-05-26 21:44:07,846 — DfHelper — INFO — file saved as csv
+2022-05-26 21:59:20,924 — DfHelper — INFO — file saved as csv
+2022-05-26 21:59:38,466 — DfHelper — INFO — file saved as csv
+2022-05-26 21:59:51,641 — DfHelper — INFO — file saved as csv
+2022-05-26 22:00:02,914 — DfHelper — INFO — file saved as csv
+2022-05-26 22:01:45,822 — DfHelper — INFO — file saved as csv
+2022-05-26 22:02:02,569 — DfHelper — INFO — file saved as csv
+2022-05-26 22:02:11,767 — DfHelper — INFO — file saved as csv
+2022-05-26 22:02:20,952 — DfHelper — INFO — file saved as csv
+2022-05-26 22:25:28,027 — DfHelper — INFO — file saved as csv
+2022-05-26 22:25:48,704 — DfHelper — INFO — file saved as csv
+2022-05-26 22:26:00,089 — DfHelper — INFO — file saved as csv
+2022-05-26 22:26:11,409 — DfHelper — INFO — file saved as csv
+2022-05-26 22:29:06,012 — DfHelper — INFO — file saved as csv
+2022-05-26 22:29:24,574 — DfHelper — INFO — file saved as csv
+2022-05-26 22:29:34,433 — DfHelper — INFO — file saved as csv
+2022-05-26 22:29:44,163 — DfHelper — INFO — file saved as csv
+2022-05-26 22:40:28,591 — DfHelper — INFO — file saved as csv
+2022-05-26 22:40:45,238 — DfHelper — INFO — file saved as csv
+2022-05-26 22:40:54,759 — DfHelper — INFO — file saved as csv
+2022-05-26 22:41:04,354 — DfHelper — INFO — file saved as csv
+2022-05-26 22:44:36,410 — DfHelper — INFO — file saved as csv
+2022-05-26 22:44:46,513 — DfHelper — INFO — file saved as csv
+2022-05-26 22:44:53,686 — DfHelper — INFO — file saved as csv
+2022-05-26 22:45:00,727 — DfHelper — INFO — file saved as csv

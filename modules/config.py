@@ -4,7 +4,7 @@ from pathlib import Path
 class Config:
   RANDOM_SEED = 27
   ASSETS_PATH = Path("../")
-  REPO = "https://github.com/gezish/pharma_sales_pridiction"
+  REPO = "~/Users/Gezahegne/10-Accademy/Week-3/pharma_sales_pridiction"
   STORE_PATH = ASSETS_PATH / "data/store.csv"
   TRAIN_PATH = ASSETS_PATH / "data/train.csv"
   TEST_PATH = ASSETS_PATH / "data/test.csv"

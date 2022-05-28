@@ -1,0 +1,1 @@
+[('Scaling', StandardScaler()), ('RandomForestRegressor', RandomForestRegressor(max_depth=10, n_estimators=200, verbose=True))]
