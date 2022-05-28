@@ -4,7 +4,8 @@ import pandas as pd
 
 
 def write():
-    st.image("./assets/src/data.jpg")
+    st.title('Recorded Historical Datas of Rossmann Pharmaceuticals')
+    st.image("./assets/src/home.jpg")
     """Used to write the page in the app.py file"""
     st.title('Data description')
     st.write("""
