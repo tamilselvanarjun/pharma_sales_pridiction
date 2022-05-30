@@ -9,10 +9,10 @@ ast.core.services.other.set_logging_format()
 
 # create the choices
 PAGES = {
-    "Home": src.pages.home,
-    "Historical Data":src.pages.data,
-    "Bussiness Insights": src.pages.insights,
-    "View Predictions": src.pages.pred
+    "Home": assets.pages.home,
+    "Historical Data":assets.pages.data,
+    "Bussiness Insights": assets.pages.insights,
+    "View Predictions": assets.pages.pred
 }
 
 
